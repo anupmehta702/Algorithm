@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class BinaryTree {
-    private Node root = null;
+    public Node root = null;
 
     public void insertData(List<Integer> dataList) {
         for (int data : dataList) {
@@ -14,7 +14,7 @@ public class BinaryTree {
     }
 
     public void insertData(int dataToAdd) {
-        System.out.println("Adding element - "+dataToAdd);
+        System.out.println("Adding element - " + dataToAdd);
         insertNode(root, dataToAdd);
     }
 
@@ -38,10 +38,10 @@ public class BinaryTree {
 
     public void deleteElement(int dataToDelete) {
         System.out.println();
-        System.out.println("-- Tree structure before deletion of "+dataToDelete+" --");
+        System.out.println("-- Tree structure before deletion of " + dataToDelete + " --");
         print();
         deleteElement(root, dataToDelete);
-        System.out.println("-- Tree structure after deletion of "+dataToDelete+" --");
+        System.out.println("-- Tree structure after deletion of " + dataToDelete + " --");
         print();
         System.out.println();
     }
@@ -88,7 +88,7 @@ public class BinaryTree {
 
     private Node findMin(Node root) {
         if (root.left != null) {
-            root=findMin(root.left);//forgot to assign to root
+            root = findMin(root.left);//forgot to assign to root
         }
         return root;
     }
@@ -115,7 +115,7 @@ public class BinaryTree {
     }
 
     public int getDepth() {
-        int count =0;
+        int count = 0;
         LinkedList<Node> list = new LinkedList<>();
         if (root == null) {
             System.out.println("No nodes present");
@@ -123,7 +123,7 @@ public class BinaryTree {
         }
         list.add(root);
         list.add(null);
-        count =1;
+        count = 1;
 
         while (!list.isEmpty()) {
             Node temp = list.remove();
@@ -142,7 +142,7 @@ public class BinaryTree {
 
 
     public void containsNode(int dataToSearch) {
-        System.out.println(" value "+dataToSearch+" is present - "+containsNode(root, dataToSearch));
+        System.out.println(" value " + dataToSearch + " is present - " + containsNode(root, dataToSearch));
     }
 
     private boolean containsNode(Node current, int value) {
@@ -156,54 +156,54 @@ public class BinaryTree {
         return value > current.data ? containsNode(current.right, value) : containsNode(current.left, value);
     }
 
-    public void printPath(int targetData){
+    public void printPath(int targetData) {
         List<Integer> path = new ArrayList<>();
-        printPath(root,path,targetData);
-        System.out.println("Printing path to "+targetData);
-        path.forEach((data)-> System.out.print(" -> "+data));
+        printPath(root, path, targetData);
+        System.out.println("Printing path to " + targetData);
+        path.forEach((data) -> System.out.print(" -> " + data));
         System.out.println();
     }
 
-    public void printAllPath(){
-        printAllPath(root,new ArrayList<>());
+    public void printAllPath() {
+        printAllPath(root, new ArrayList<>());
     }
 
-    private void printAllPath(Node current ,List<Integer> path ){
-        if(current == null){
+    private void printAllPath(Node current, List<Integer> path) {
+        if (current == null) {
             return;
-        }else{
+        } else {
             path.add(current.data);
         }
-        if(current.right == null && current.left == null){
+        if (current.right == null && current.left == null) {
             System.out.println("Printing path ");
-            path.forEach((data)-> System.out.print(" -> "+data));
+            path.forEach((data) -> System.out.print(" -> " + data));
             System.out.println();
-        }else{
+        } else {
             //below are the steps to traverse a node from left to right ie. print left first ,come to head,print right
-            printAllPath(current.left,path);
-            printAllPath(current.right,path);
+            printAllPath(current.left, path);
+            printAllPath(current.right, path);
         }
 
     }
 
 
-    private void printPath(Node current,List<Integer> path,int targetData){
-        if(targetData == current.data){
+    private void printPath(Node current, List<Integer> path, int targetData) {
+        if (targetData == current.data) {
             path.add(current.data);
             return;
-        }else{
-            if(targetData > current.data){
+        } else {
+            if (targetData > current.data) {
                 path.add(current.data);
-                printPath(current.right,path,targetData);
-            }else{
+                printPath(current.right, path, targetData);
+            } else {
                 path.add(current.data);
-                printPath(current.left,path,targetData);
+                printPath(current.left, path, targetData);
             }
         }
-        return ;
+        return;
     }
 
-    public void doMirror(){
+    public void doMirror() {
         System.out.println("Tree before mirror");
         print();
         mirror(root);
@@ -211,24 +211,53 @@ public class BinaryTree {
         print();
     }
 
-    private Node mirror(Node current){
-        if(current == null){
+    private Node mirror(Node current) {
+        if (current == null) {
             return current;
         }
         Node left = mirror(current.left);
         Node right = mirror(current.right);
-        //THis is where you get a leaf node or a node ,you interchange thier left right
+        //This is where you get a leaf node or a node ,you interchange their left right
         /*
                      7
                   4     8
                  3 5      9
          */
-        //Example first it goes to 3 ,then 5 ,then 4 swaps it's left right,then goes to 8 to then null,then 9,then null,
+        //Example first it goes to 3 ,then 5 ,then 4 swaps it's left right,
+        // then goes to 8 to then null,then 9,then null,
         // then 8 again to swap it's right left,then goes to 7 and swaps 4 and 8
         current.left = right;
-        current.right= left;
+        current.right = left;
 
         return current;
+    }
+
+    public boolean isBST() {
+        return isBSTUtil(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
+
+    private boolean isBSTUtil(Node node, int min, int max) {
+        if (node == null) return true;
+        if (node.data <= min || node.data > max) {
+            return false;
+        }
+        return isBSTUtil(node.left, min, node.data) && isBSTUtil(node.right, node.data, max);
+        //we are setting max and min range for every node
+        //all nodes to the left of parent node should be between min and parent node data
+        //all nodes to the right of parent node should be between node.data and max
+        /*
+                     6
+                  4     8
+                 3 5   7 9
+
+           Example for 4 range is (Integer.min,6) i.e. (min,max)
+           for 3 (Integer.min,4)
+           for 5 (4,6) for right node range is (parentNode.data,max)
+           for 8 (6,Integer.MAX)
+           for 7 (6,8)
+           for 9 (6,Integer.MAX)
+         */
+
     }
 
 

@@ -51,8 +51,30 @@ public class BinaryTreeRunner {
 
         bt.doMirror();
 
+        checkIfBinaryTreeIsABinarySearchTree();
+
     }
 
+    public static void checkIfBinaryTreeIsABinarySearchTree(){
+        BinaryTree bt = new BinaryTree();
+        bt.root = new Node(3);
+        bt.root.right = new Node(4);
+        bt.root.right.right = new Node(5);
+        bt.root.right.left = new Node(2);
+        /*
+            3
+              4
+             2 5
+           THis is binary tree but not a binary search tree because 2 should be at left of 3
+           and not on   right of 3 .
+           BST is tree where left is always smaller than parent node
+           and right is always greater than parent node .
+
+         */
+        bt.print();
+        System.out.println("Is it a binary search tree ? -"+bt.isBST());
+
+    }
 }
 /*
   6 4 8 3 5 7 9
