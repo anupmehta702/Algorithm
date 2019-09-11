@@ -76,3 +76,16 @@ public class DFS {
 	}
 	
 }
+
+/*Output
+-->4
+Graph -->
+0110
+1001
+1000
+0100
+A
+B
+D
+C
+ */

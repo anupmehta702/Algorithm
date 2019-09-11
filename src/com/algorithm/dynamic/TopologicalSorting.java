@@ -57,3 +57,8 @@ public class TopologicalSorting {
 		stack.push(new Integer(v));
 	}
 }
+/*
+Output
+solution -->
+5 4 2 3 1 0
+ */

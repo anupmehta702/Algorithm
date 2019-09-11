@@ -77,7 +77,29 @@ public class Dijkstra {
 	
 	public static void main(String[] args) {
 		Dijkstra dijkstra=new Dijkstra(6);
-		//dijkstra.graph.displayGraph();
+		dijkstra.graph.displayGraph();
 		dijkstra.findShortestDist();
 	}
 }
+/*Output
+Graph -->
+050920
+502000
+020300
+903002
+200003
+000230
+Current Node-->0
+Current Node-->4
+Current Node-->1
+Current Node-->5
+Current Node-->2
+Current Node-->3
+Key=0, Value=0
+Key=1, Value=5
+Key=2, Value=7
+Key=3, Value=7
+Key=4, Value=2
+Key=5, Value=5
+
+ */
