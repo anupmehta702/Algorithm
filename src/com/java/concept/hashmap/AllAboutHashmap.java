@@ -1,4 +1,4 @@
-package com.java.concept;
+package com.java.concept.hashmap;
 
 import java.util.*;
 

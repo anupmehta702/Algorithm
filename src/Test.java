@@ -1,9 +1,18 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Test {
 
     public static void main(String[] args) {
+
+        Set<Integer> setOfInteger= new HashSet<>();
+        setOfInteger.add(10);
+        setOfInteger.add(20);
+        Iterator<Integer> itr = setOfInteger.iterator();
+        System.out.println("Printing values of set ");
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }
+        System.out.println();
         String input = "ACCGGGTTTT";
         System.out.println("Reverse -->" + reverseString(input));
         String reversedString = reverseString(input);
