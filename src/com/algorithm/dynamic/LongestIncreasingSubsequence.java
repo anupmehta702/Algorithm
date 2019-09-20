@@ -24,7 +24,7 @@ public class LongestIncreasingSubsequence {
 			if(soln<output[k]){
 				soln=output[k];
 			}
-			System.out.print(output[k]);
+			System.out.print(" "+output[k]);
 		}
 		System.out.println(" Final answer -->"+soln);
 	}
@@ -33,3 +33,7 @@ public class LongestIncreasingSubsequence {
 		sub.findLongestIncreasingSubsequence();
 	}
 }
+/*Output
+output -->
+ 1 1 2 1 3 2 3 4 5 5 6 7 8 5 6 7 8 9 10 Final answer -->10
+ */

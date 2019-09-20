@@ -7,16 +7,21 @@ public class StaticNonSaticAccess  implements CheckingStaticInterface{
 	 
 	 public static void staticMethod(){
 		 staticVar=10;
-		 System.out.println("printing static variable of interface -->"+CheckingStaticInterface.staticVarOfInterface
-				 +" non static variable-->"+CheckingStaticInterface.nonStaticVarOfInterface);
+		 //nonStaticVar=20;//non static variable cannot be accessed by static variable
+		 System.out.println("printing static variable of interface -->"
+				 +CheckingStaticInterface.staticVarOfInterface
+				 +" non static variable-->"
+				 +CheckingStaticInterface.nonStaticVarOfInterface);
 	 }
 	 
 	 public void nonStaticMethod(){
-		 
+	 	staticVar=10; //nonStaticMethod can access Static variable
 	 }
 	 
 	 public static void main(String[] args) {	
-		 CheckingStaticInterface obj = new StaticNonSaticAccess();
+	 	CheckingStaticInterface obj = new StaticNonSaticAccess();
+	 	obj.nonStaticMethod();
+	 	staticMethod();
 	}
 	 	 
 }

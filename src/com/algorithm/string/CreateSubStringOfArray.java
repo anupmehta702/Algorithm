@@ -39,3 +39,11 @@ public class CreateSubStringOfArray {
 
     }
 }
+/*
+Input - 4 -1 2 3 5
+Sub array -->
+3 5 8 13 1 4 9 5 10 8
+Sorted Sub array -->
+1 3 4 5 5 8 8 9 10 13
+
+ */

@@ -68,9 +68,9 @@ public class TestHashSet {
     }
 }
 class Order implements Comparable<Order>{
-    int orderNumber=0;
+    Integer orderNumber=0;
     String name;
-    public Order(int orderNumber, String name) {
+    public Order(Integer orderNumber, String name) {
         this.orderNumber = orderNumber;
         this.name = name;
     }
@@ -100,9 +100,40 @@ class Order implements Comparable<Order>{
         return orderNumber == order.orderNumber &&
                 Objects.equals(name, order.name);
     }
+    /*
+     public static boolean equals(Object a, Object b) {
+        return (a == b) || (a != null && a.equals(b));
+    }
+     */
 
     @Override
     public int hashCode() {
         return Objects.hash(orderNumber, name);
     }
+    /*
+        public static int hash(Object... values) {
+          return Arrays.hashCode(values);
+        }
+
+        public static int hashCode(Object a[]) {
+        if (a == null)
+            return 0;
+
+        int result = 1;
+
+        for (Object element : a)
+            result = 31 * result + (element == null ? 0 : element.hashCode());
+
+        return result;
+       }
+
+     */
 }
+
+/*Output
+TreeSet --> 1 5 10 20
+Tree set using stream --> 1 5 10 20
+TreeSet<Order> --> {orderNumber=1, name='A'} {orderNumber=2, name='B'} {orderNumber=3, name='C'} {orderNumber=4, name='D'} {orderNumber=6, name='B'}
+LinkedHashSet -->{orderNumber=4, name='D'}{orderNumber=1, name='A'}{orderNumber=2, name='B'}{orderNumber=3, name='C'}
+
+ */
