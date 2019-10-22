@@ -62,4 +62,6 @@ public class CuttingRodProblem {
  0  2  5  7  10  12
  0  2  5  7  10  12
  Max value of rod -->12
+
+ Formula --- T[i][j] = Max{val[i]+ T[i][j-i],T[i-1][j]}
 */

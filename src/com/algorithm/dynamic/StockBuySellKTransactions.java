@@ -46,3 +46,15 @@ public class StockBuySellKTransactions {
     }
 
 }
+//Input - {2, 5, 7, 1, 4, 3, 1, 3} ,maxNoOfTransaction- 2
+// Output
+/*
+ 0  0  0  0  0  0  0  0
+ 0  3  5  5  5  5  5  5
+ 0  3  5  5  8  8  8  8
+
+Maximum profit --> 8
+
+Formula - T[i][j]= Math.max{T[i][j-1], // prev best transaction on j-1th Day
+ price[j]-price[m] + T[i-1][m]} ,m is number of previous days from 0,1,2..j-1 //transaction made on jth day
+*/
