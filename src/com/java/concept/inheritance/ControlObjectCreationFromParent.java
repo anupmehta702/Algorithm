@@ -9,7 +9,7 @@ public class ControlObjectCreationFromParent {
         A a1=null;
         try {
             A a = new A();
-            B b = new B();
+            B b = new B(); //Basically it creates only one object which consist of both parent and child variables and methods .Parent is referred by super
             C c = new C();
             Thread.sleep(1000);//added to not mix sout statements in output
             //All below statements throw exception !
@@ -20,6 +20,7 @@ public class ControlObjectCreationFromParent {
             e.printStackTrace();
             System.out.println("Caught exception for "+ a1);
         }
+
 
     }
 }
@@ -40,6 +41,8 @@ class A{
 class B extends A{
     public B() throws Exception {
         System.out.println("In B constructor");
+        System.out.println("super keyword -->"+super.hashCode()+" this keyword -->"+this.hashCode());//both hashcodes are same !
+        System.out.println("ToString for super keyword -->"+super.toString()+" this keyword -->"+this.toString());//same for this and super
         System.out.println("Called from -"+this.getClass().getName());
        // super();//not allowed it says it should always be the first statement in the body
     }
