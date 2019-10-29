@@ -1,4 +1,4 @@
-package com.algorithm.dynamic;
+package com.algorithm.string;
 
 public class LongestIncreasingSubsequence {
 

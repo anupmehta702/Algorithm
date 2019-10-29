@@ -4,7 +4,25 @@ import java.util.*;
 
 public class AllAboutHashmap {
 
+	public static void iterateHashMap(){
+		Map<Integer,String> testMap = new HashMap();
+		testMap.put(1,"a");testMap.put(2,"b");testMap.put(3,"c");
+		testMap.put(4,"d");testMap.put(5,"e");testMap.put(6,"f");
+		Set<Map.Entry<Integer,String>> testEntrySet=testMap.entrySet();
+		testEntrySet.stream().forEach((entry)-> System.out.print(" [ "+entry.getKey()+" , "+entry.getValue()+" ]"));
+		System.out.println();
+		Iterator itr = testMap.entrySet().iterator();
+		//itr.forEachRemaining((entry)->System.out.print("["+entry.toString()+"]"));
+		while(itr.hasNext()){
+			Map.Entry entry = (Map.Entry) itr.next();
+			System.out.print(" [ "+entry.getKey()+", "+entry.getValue()+" ]");
+		}
+		System.out.println();
+
+	}
+
 	public static void main(String[] args) {
+		iterateHashMap();
 		TestForHashmap h1 =new TestForHashmap();
 		TestForHashmap h2 =new TestForHashmap();
 		TestForHashmap h3 =new TestForHashmap();
