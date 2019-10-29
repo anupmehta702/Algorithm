@@ -8,6 +8,7 @@ public class FindLargestNumber {
         FindLargestNumber flm = new FindLargestNumber();
         System.out.println("Output -- >" + flm.largestNumber(new int[]{30, 3, 34, 5, 9, 121, 12}));
         System.out.println("Output(Leet) -- >" + flm.largestNumberViaLeetCode(new int[]{30, 3, 34, 5, 9, 121, 12}));
+        System.out.println("Output(Leet) -- >" + flm.largestNumberViaLeetCode(new int[]{121,12}));
     }
 
 
