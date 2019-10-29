@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf27885c-252e-41ac-88fd-5ac2ec48ed39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/list/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/string/FindLargestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/string/LongestSubstringWithoutRepeatingCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/string/NextGreater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/algorithm/dynamic/LongestIncreasingSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/algorithm/string/KthMostRepeatingOccurrence$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/algorithm/string/KthMostRepeatingOccurrence$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/hashmap/AllAboutHashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/java/concept/hashmap/AllAboutHashmap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/hashmap/TestForHashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/java/concept/hashmap/TestForHashmap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/dynamic/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/dynamic/Knapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/dynamic/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/string/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/string/KthMostRepeatingOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/string/KthMostRepeatingOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/concept/hashmap/AllAboutHashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/hashmap/AllAboutHashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/string/FindLargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/string/FindLargestNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,12 +61,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="35" />
-          <entry key="java" value="36005" />
+          <entry key="java" value="36610" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="36005" />
+          <entry key="JAVA" value="36610" />
           <entry key="PLAIN_TEXT" value="35" />
         </counts>
       </usages-collector>
@@ -110,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/LongestSubstringWithoutRepeatingCharacter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
+            <state relative-caret-position="141">
               <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/FindLargestNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="282">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -142,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/NextGreater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="49" selection-end-line="49" />
+            <state relative-caret-position="27">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding>
                 <element signature="e#1050#1051#0" expanded="true" />
                 <element signature="e#1108#1109#0" expanded="true" />
@@ -309,7 +297,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572349258655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572350632405" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Idea project/Spring-Project" />
   </component>
@@ -573,12 +561,6 @@
           <line>22</line>
           <properties />
           <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/algorithm/string/FindLargestNumber.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -958,27 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/NextGreater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/LongestSubstringWithoutRepeatingCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/concept/TestList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -988,10 +949,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/LongestSubstringWithoutRepeatingCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/NextGreater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/FindLargestNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="282">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>
