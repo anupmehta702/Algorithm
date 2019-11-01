@@ -74,6 +74,8 @@ public class LinkedList {
         printList();
     }
 
+
+
     public void insertNodeInSortedList(int data) {
         Node current = root.next;
         Node temp = current;

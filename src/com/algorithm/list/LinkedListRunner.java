@@ -21,6 +21,7 @@ public class LinkedListRunner {
         System.out.println("Middle of linked list is - "+ll.findMiddleOfList());
 
         ll.reverseLinkedList();
+
     }
 
     public static void identifyCycle(){
