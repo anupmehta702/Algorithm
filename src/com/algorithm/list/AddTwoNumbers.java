@@ -92,15 +92,6 @@ public class AddTwoNumbers {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-
-}
 /*
 Output -
 Input 81 +0 Resultant list -->
