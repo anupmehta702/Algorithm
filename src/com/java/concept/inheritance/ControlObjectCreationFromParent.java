@@ -26,6 +26,7 @@ public class ControlObjectCreationFromParent {
 }
 class A{
     public static Map<String,Integer> objCreationMap= new HashMap<>();
+    public int variableFromA=10;
     public A() throws Exception {
         System.out.println("In A constructor");
         System.out.println("Called from -"+this.getClass().getName());
@@ -36,6 +37,8 @@ class A{
             objCreationMap.put(this.getClass().getName(),1);
         }
     }
+    public void publicMethodFromA(){ }
+    private void privateMethodFromA(){}
 
 }
 class B extends A{
@@ -44,6 +47,8 @@ class B extends A{
         System.out.println("super keyword -->"+super.hashCode()+" this keyword -->"+this.hashCode());//both hashcodes are same !
         System.out.println("ToString for super keyword -->"+super.toString()+" this keyword -->"+this.toString());//same for this and super
         System.out.println("Called from -"+this.getClass().getName());
+        System.out.println("Printing super variable -- "+super.variableFromA);
+        super.publicMethodFromA();//cannot call super.privateMethodFromA()
        // super();//not allowed it says it should always be the first statement in the body
     }
 }

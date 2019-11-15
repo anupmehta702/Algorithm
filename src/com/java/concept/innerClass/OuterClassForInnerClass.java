@@ -17,3 +17,4 @@ public class OuterClassForInnerClass {
 		inner.print();
 	}
 }
+/*Output --> print outer variable -->outerVar, innerVar*/

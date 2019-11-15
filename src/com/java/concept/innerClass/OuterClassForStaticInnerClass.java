@@ -17,8 +17,13 @@ public  class OuterClassForStaticInnerClass {
 		}
 	}
 	public static void main(String[] args) {
-		Inner inner =new Inner();
+		OuterClassForStaticInnerClass.Inner inner =new OuterClassForStaticInnerClass.Inner();
 		inner.print();
 		System.out.println("-->"+inner.innerStaticVariable);
 	}
 }
+/*Output
+Inside static inner class OuterVariable
+Inside outer class -->OuterVariable
+-->innerVariable
+ */

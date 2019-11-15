@@ -1,5 +1,11 @@
 package com.java.concept;
 
+interface CheckingStaticInterface{
+	public final static int staticVarOfInterface=10;
+	public int nonStaticVarOfInterface=20;
+
+	public void nonStaticMethod();
+}
 public class StaticNonSaticAccess  implements CheckingStaticInterface{
 
 	public static int staticVar =1;
@@ -15,7 +21,7 @@ public class StaticNonSaticAccess  implements CheckingStaticInterface{
 	 }
 	 
 	 public void nonStaticMethod(){
-	 	staticVar=10; //nonStaticMethod can access Static variable
+	 	staticVar=10;//nonStaticMethod can access Static variable
 	 }
 	 
 	 public static void main(String[] args) {	
@@ -25,9 +31,6 @@ public class StaticNonSaticAccess  implements CheckingStaticInterface{
 	}
 	 	 
 }
-interface CheckingStaticInterface{
-	public final static int staticVarOfInterface=10;
-	public int nonStaticVarOfInterface=20;
-	
-	public void nonStaticMethod();
-}
+/* Output -
+printing static variable of interface -->10 non static variable-->20
+ */
