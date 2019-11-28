@@ -1,4 +1,4 @@
-package com.java.concept;
+package com.java.concept.setAndList;
 
 import java.util.LinkedHashSet;
 import java.util.Objects;
@@ -53,7 +53,7 @@ public class TestHashSet {
 
         Set<Order> treeSetForOrder = new TreeSet<>();
         //No compile time exception ,but runtime exception if Order is not comparable
-        //java.lang.ClassCastException: com.java.concept.Order cannot be cast to java.lang.Comparable
+        //java.lang.ClassCastException: com.java.concept.Set.Order cannot be cast to java.lang.Comparable
         treeSetForOrder.add(new Order(4,"D"));
         treeSetForOrder.add(new Order(1,"A"));
         treeSetForOrder.add(new Order(3,"C"));

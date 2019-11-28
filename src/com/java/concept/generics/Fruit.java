@@ -1,4 +1,4 @@
-package com.java.concept;
+package com.java.concept.generics;
 
 public class Fruit {
  int type=1;

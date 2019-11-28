@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf27885c-252e-41ac-88fd-5ac2ec48ed39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/java/concept/hashmap/TreeMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/concept/immutability/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/inheritance/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/java/concept/inheritance/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/inheritance/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/java/concept/inheritance/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/inheritance/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/java/concept/inheritance/C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/innerClass/OuterClassForLocalClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/java/concept/innerClass/OuterClassForLocalClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/concept/StaticNonSaticAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/StaticNonSaticAccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/concept/inheritance/ControlObjectCreationFromParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/inheritance/ControlObjectCreationFromParent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/concept/innerClass/OuterClassForInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/innerClass/OuterClassForInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/concept/innerClass/OuterClassForLocalClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/innerClass/OuterClassForLocalClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/concept/innerClass/OuterClassForStaticInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/innerClass/OuterClassForStaticInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/AsianApple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/AsianBanana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/Banana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/ComparatorForOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/java/concept/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/Generics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/Mango.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/StaticNonSaticAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/java/concept/StaticNonSaticAccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/TestHashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/TestList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/hashmap/AllAboutHashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/java/concept/hashmap/AllAboutHashmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/concept/CloneableImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/CloneableImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/concept/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/concept/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/generics/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/concept/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/generics/Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/concept/TestHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/setAndList/TestHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/concept/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/setAndList/TestList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,12 +37,12 @@
     <session id="-1386680772">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="53" />
+          <entry key="project.closed" value="54" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="2" />
@@ -38,7 +51,7 @@
           <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.28" value="2" />
-          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.29" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="5" />
           <entry key="project.open.time.31" value="2" />
@@ -53,24 +66,25 @@
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.81" value="1" />
-          <entry key="project.opened" value="65" />
+          <entry key="project.opened" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="236" />
+          <entry key="java" value="250" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="236" />
+          <entry key="JAVA" value="250" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -78,19 +92,71 @@
         <counts>
           <entry key="dummy" value="35" />
           <entry key="gitignore" value="8" />
-          <entry key="java" value="39272" />
+          <entry key="java" value="42147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="39272" />
+          <entry key="JAVA" value="42147" />
           <entry key="PLAIN_TEXT" value="43" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/concept/immutability/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1232">
+              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/java/concept/hashmap/TreeMapExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/concept/hashmap/AllAboutHashmap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/TreeMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14718">
+              <caret line="717" column="26" selection-start-line="717" selection-start-column="26" selection-end-line="717" selection-end-column="26" />
+              <folding>
+                <element signature="e#5767#5768#0" expanded="true" />
+                <element signature="e#5800#5801#0" expanded="true" />
+                <element signature="e#25347#25348#0" expanded="true" />
+                <element signature="e#25401#25402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7326">
+              <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,14 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/java/concept/AllAboutHashmap.java" />
-        <option value="$PROJECT_DIR$/src/com/java/concept/CloneableImplementation.java" />
-        <option value="$PROJECT_DIR$/src/com/java/concept/Generics.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithm/heap/BinaryMinHeap.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithm/tree/BinaryTreeForTraversal.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithm/string/CreateSubStringOfArray.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithm/string/FindDuplicateWordsInSentence.java" />
         <option value="$PROJECT_DIR$/src/com/java/concept/StringTest.java" />
         <option value="$PROJECT_DIR$/src/com/java/concept/TestList.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/dynamic/LongestIncreasingSubsequence.java" />
@@ -142,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/com/algorithm/dynamic/StockBuySellKTransactions.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/dynamic/Knapsack.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/string/NextGreater.java" />
-        <option value="$PROJECT_DIR$/src/com/java/concept/hashmap/AllAboutHashmap.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/string/KthMostRepeatingOccurrence.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/string/LongestSubstringWIthoutRepeatingCharacter.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/string/LongestSubstringWithoutRepeatingCharacter.java" />
@@ -171,6 +228,15 @@
         <option value="$PROJECT_DIR$/src/com/java/concept/innerClass/OuterClassForLocalClass.java" />
         <option value="$PROJECT_DIR$/src/com/java/concept/innerClass/OuterClassForStaticInnerClass.java" />
         <option value="$PROJECT_DIR$/src/com/java/concept/StaticNonSaticAccess.java" />
+        <option value="$PROJECT_DIR$/src/com/java/concept/generics/Fruit.java" />
+        <option value="$PROJECT_DIR$/src/com/java/concept/Set/TestList.java" />
+        <option value="$PROJECT_DIR$/src/com/java/concept/setAndList/TestHashSet.java" />
+        <option value="$PROJECT_DIR$/src/com/java/concept/CloneableImplementation.java" />
+        <option value="$PROJECT_DIR$/src/com/java/concept/Dog.java" />
+        <option value="$PROJECT_DIR$/src/com/java/concept/immutability/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/java/concept/hashmap/TreeMap.java" />
+        <option value="$PROJECT_DIR$/src/com/java/concept/hashmap/AllAboutHashmap.java" />
+        <option value="$PROJECT_DIR$/src/com/java/concept/hashmap/TreeMapExample.java" />
       </list>
     </option>
   </component>
@@ -187,8 +253,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,14 +285,6 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="concept" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,7 +293,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="concept" type="462c0819:PsiDirectoryNode" />
-              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
+              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -243,8 +301,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="concept" type="462c0819:PsiDirectoryNode" />
-              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
-              <item name="ControlObjectCreationFromParent.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeMapExample.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="concept" type="462c0819:PsiDirectoryNode" />
+              <item name="immutability" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +349,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573699183739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574164996719" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Idea project/Spring-Project" />
   </component>
@@ -305,20 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticNonSaticAccess">
-    <configuration name="OuterClassForInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.concept.innerClass.OuterClassForInnerClass" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.concept.innerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TreeMapExample">
     <configuration name="OuterClassForLocalClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.concept.innerClass.OuterClassForLocalClass" />
       <module name="Algorithm" />
@@ -345,12 +398,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolymorphismTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.concept.inheritance.PolymorphismTest" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.concept.immutability.Person" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.concept.inheritance.*" />
+          <option name="PATTERN" value="com.java.concept.immutability.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,7 +416,20 @@
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.concept.*" />
+          <option name="PATTERN" value="com.java.concept.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.concept.hashmap.TreeMapExample" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.concept.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,19 +438,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PolymorphismTest" />
-      <item itemvalue="Application.OuterClassForInnerClass" />
       <item itemvalue="Application.OuterClassForLocalClass" />
       <item itemvalue="Application.OuterClassForStaticInnerClass" />
       <item itemvalue="Application.StaticNonSaticAccess" />
+      <item itemvalue="Application.Person" />
+      <item itemvalue="Application.TreeMapExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeMapExample" />
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.StaticNonSaticAccess" />
         <item itemvalue="Application.OuterClassForStaticInnerClass" />
         <item itemvalue="Application.OuterClassForLocalClass" />
-        <item itemvalue="Application.OuterClassForInnerClass" />
-        <item itemvalue="Application.PolymorphismTest" />
       </list>
     </recent_temporary>
   </component>
@@ -403,8 +469,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30201343" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31140938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -414,7 +481,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.46600565" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.46600565" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48866856" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -637,90 +704,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/dynamic/Knapsack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/dynamic/CuttingRodProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/dynamic/StockBuySellKTransactions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/FindDuplicateWordsInSentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="286" column="23" selection-start-line="286" selection-start-column="23" selection-end-line="286" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/LongestIncreasingSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/KthMostRepeatingOccurrence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/concept/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/concept/CloneableImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/concept/hashmap/AllAboutHashmap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -765,9 +752,6 @@
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/concept/TestList.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -931,13 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/concept/TestHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/concept/scope/ProtectedClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -991,6 +968,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="35" column="3" lean-forward="true" selection-start-line="2" selection-end-line="35" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/concept/generics/Fruit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/concept/ReferenceRelated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="24" lean-forward="true" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/concept/TestInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/concept/generics/Generics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/concept/setAndList/TestList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/concept/Dog.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/concept/setAndList/TestHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/concept/CloneableImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/concept/immutability/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/concept/hashmap/AllAboutHashmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14718">
+          <caret line="717" column="26" selection-start-line="717" selection-start-column="26" selection-end-line="717" selection-end-column="26" />
+          <folding>
+            <element signature="e#5767#5768#0" expanded="true" />
+            <element signature="e#5800#5801#0" expanded="true" />
+            <element signature="e#25347#25348#0" expanded="true" />
+            <element signature="e#25401#25402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7326">
+          <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/concept/hashmap/TreeMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>

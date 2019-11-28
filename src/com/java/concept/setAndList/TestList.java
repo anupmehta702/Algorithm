@@ -1,4 +1,4 @@
-package com.java.concept;
+package com.java.concept.setAndList;
 
 import java.util.Comparator;
 import java.util.LinkedList;

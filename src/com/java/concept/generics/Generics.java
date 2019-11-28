@@ -1,4 +1,4 @@
-package com.java.concept;
+package com.java.concept.generics;
 
 import java.util.ArrayList;
 import java.util.List;
