@@ -8,7 +8,12 @@ public class OddEvenList {
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
         Solution1 solution1= new Solution1();
-        solution1.oddEvenList(head);
+        ListNode output =solution1.oddEvenList(head);
+        System.out.println("Output --");
+        while(output.next!=null){
+            System.out.print(" "+output.val+" , ");
+            output=output.next;
+        }
     }
 }
 
@@ -33,5 +38,6 @@ class Solution1 {
     }
 }
 /*
-Output -
+Input --  1 , 2 , 3 , 4 , 5
+Output -- 1 ,  3 ,  5 ,  2 ,
  */

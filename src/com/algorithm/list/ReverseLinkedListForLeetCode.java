@@ -9,13 +9,24 @@ public class ReverseLinkedListForLeetCode {
         head.next.next.next = new ListNode1(4);
         head.next.next.next.next = new ListNode1(5);
         Solution solution = new Solution();
-        //System.out.println("Reversing the list -->"+(solution.reverseList(head)));
-        solution.reverseBetween(head, 2, 4);
+        System.out.println("Reversing the list -->");
+        printListNode(solution.reverseList(head));
+        printListNode(solution.reverseBetween(head, 2, 4));
         head = new ListNode1(3);
         head.next = new ListNode1(5);
-        solution.reverseBetween(head, 1, 2);
+        System.out.println("Reverse between output -->");
+        //printListNode(solution.reverseBetween(head, 1, 2));
         System.out.println("head -->"+head.val+" next -->"+head.next.val);
     }
+    public static void printListNode(ListNode1 root){
+        ListNode1 temp = root ;
+        while(temp!=null){
+            System.out.print(" "+temp.val+" ,");
+            temp=temp.next;
+        }
+        System.out.println();
+    }
+
 }
 
 class ListNode1 {
@@ -83,3 +94,10 @@ class Solution {
 
     }
 }
+/*
+Input - 1 , 2 , 3 , 4 , 5
+output - Reversing the list -->
+ 1 , 4 , 3 , 2 , 5 ,
+output -Reversing the list between 1 & 4 -->
+ 1 , 4 , 3 , 2 , 5 ,
+ */

@@ -1,4 +1,4 @@
-package com.java.concept.immutability;
+package com.java.concept.immutabilityAndSingleton;
 
 public final class Person {
     private final int id;
