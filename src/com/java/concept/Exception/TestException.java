@@ -58,7 +58,20 @@ public class TestException {
 }
 /*
  THrowable
- - Error
- - Exception  - RuntimeException
-              - All other CheckedException
+ - Error (outOfMemoryError,NoClassDefFoundError)
+ - Exception  - RuntimeException (NullPointerException,ArrayIndexOutOfBoundException)
+              - All other CheckedException (IOException,SQLException etc)
+ */
+/*
+Output -
+com.java.concept.Exception.UserCheckedException
+In default method
+Return value --> finally
+	at com.java.concept.Exception.TestException.defaultMethodThrowingCheckedExp(TestException.java:42)
+In defaultMethodThrowingNoCheckedExp method
+in finally method for defaultMethodWithNoException
+	at com.java.concept.Exception.TestException.defaultMethod(TestException.java:12)
+Return value --> try
+	at com.java.concept.Exception.TestException.main(TestException.java:7)
+
  */
