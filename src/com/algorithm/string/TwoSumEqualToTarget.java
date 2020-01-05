@@ -5,6 +5,13 @@ import java.util.Map;
 
 public class TwoSumEqualToTarget {
     public static void main(String[] args) {
+
+        String str = "Hello I am Anup !";
+        String[] splitStr= str.split(" ");
+        System.out.println("Hello-->"+splitStr);
+        for(String in : splitStr){
+            System.out.println("--"+in);
+        }
         SolutionForTwoSum soln = new SolutionForTwoSum();
         int[] pair = new int[2];
         pair=soln.twoSum(new int[]{2,7,11,15},9);

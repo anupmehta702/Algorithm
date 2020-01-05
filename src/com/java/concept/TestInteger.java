@@ -43,6 +43,15 @@ public class TestInteger {
         System.out.println("is Count4 == ++count4 " + (count4 == (++count4)));//false
         System.out.println("is Count4 == count4+1 " + (count4 == (count4 = count4 + 1)));//false
 
+        Integer a10 = 10;
+        Integer a20 = 20 ;
+        System.out.println("is a10 equal to a20 --"+(a10==a20));
+        Integer a100 = new Integer(100);
+        Integer b100 = new Integer(100);
+        System.out.println("is new Integer a100 equal to b100 -- "+(a100==b100));
+        Integer aa100 = 100;
+        Integer bb100 = 100;
+        System.out.println("is  aa100 equal to bb100 -- "+(aa100==bb100));
     }
 }
 /* Output -

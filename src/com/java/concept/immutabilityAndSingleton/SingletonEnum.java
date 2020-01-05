@@ -13,6 +13,10 @@ public enum SingletonEnum implements Serializable,Cloneable {
         System.out.println("changing type to - "+type);
         return type;
     }
+    public String setValues(String type){
+        this.type=type;
+        return type;
+    }
 
 
     @Override
@@ -27,7 +31,10 @@ public enum SingletonEnum implements Serializable,Cloneable {
 class TestSingletonEnum{
     public static void main(String[] args) throws IOException, ClassNotFoundException, IllegalAccessException, InstantiationException, InvocationTargetException {
         System.out.println("Singleton enum -->"+SingletonEnum.SINGLETON_ENUM.toString());
-        System.out.println("Updated Singleton enum -->"+SingletonEnum.SINGLETON_ENUM.getValues());
+        System.out.println("Singleton enum ordinal -->"+SingletonEnum.SINGLETON_ENUM.ordinal());
+
+        SingletonEnum.SINGLETON_ENUM.getValues();
+        System.out.println("Updated Singleton enum -->"+SingletonEnum.SINGLETON_ENUM.toString());
         breakSingletonUsingReflection();
         breakUsingSerializable();
 
