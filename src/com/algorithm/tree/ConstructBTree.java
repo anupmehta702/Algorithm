@@ -65,8 +65,8 @@ public class ConstructBTree {
     }
 
     public int search(int inOrder[], int data) {
-        for (int i = 0; i < inOrder.length ; i++) {
-            if (inOrder[i] == data){
+        for (int i = 0; i < inOrder.length; i++) {
+            if (inOrder[i] == data) {
                 return i;
             }
         }
@@ -84,9 +84,9 @@ public class ConstructBTree {
         if (inStart == inEnd) {
             return newNode;
         }
-        int inIndex = search(inOrder,newNode.data);
-        newNode.left = buildBT(inOrder,preOrder,inStart,inIndex-1);
-        newNode.right = buildBT(inOrder,preOrder,inIndex+1,inEnd);
+        int inIndex = search(inOrder, newNode.data);
+        newNode.left = buildBT(inOrder, preOrder, inStart, inIndex - 1);
+        newNode.right = buildBT(inOrder, preOrder, inIndex + 1, inEnd);
         return newNode;
     }
 

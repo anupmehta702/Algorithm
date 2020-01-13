@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class ConcurrentHashMapExample {
 
 	Map<String,String> chm=new ConcurrentHashMap<>();
-	
+
 	public void check(){
 		chm.put("key1", "value1");
 		chm.get("key1");
@@ -20,6 +20,7 @@ public class ConcurrentHashMapExample {
 	        premiumPhone.put("Apple", "iPhone6");
 	        premiumPhone.put("HTC", "HTC one");
 	        premiumPhone.put("Samsung","S6");
+
 	        
 	        Iterator<String>iterator = premiumPhone.keySet().iterator();
 	        

@@ -52,6 +52,12 @@ public class TestInteger {
         Integer aa100 = 100;
         Integer bb100 = 100;
         System.out.println("is  aa100 equal to bb100 -- "+(aa100==bb100));
+
+        Integer x = new Integer(10);
+        System.out.println("Integer value -->"+x.hashCode());
+        x++;
+        System.out.println("Integer value after incrementing -->"+x.hashCode());
+
     }
 }
 /* Output -
