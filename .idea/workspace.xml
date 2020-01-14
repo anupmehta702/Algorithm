@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf27885c-252e-41ac-88fd-5ac2ec48ed39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/concept/AtomicVariableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/concept/interfaceImpl/ParentInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/concept/scope2/ChildClassOfProtectedClassInDiffPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/string/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/string/Segregate0And1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/TestInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/java/concept/TestInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/java/concept/scope/DifferentPackageClassToTestScope.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/tree/ConstructBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/tree/ConstructBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/concept/TestInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/TestInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/concept/hashmap/ConcurrentHashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/hashmap/ConcurrentHashMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/concept/scope/DifferentPackageClassToTestScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/concept/DifferentPackageClassToTestScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/string/BeautifulArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/string/BeautifulArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +18,7 @@
     <session id="-1386680772">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="67" />
+          <entry key="project.closed" value="68" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -42,7 +36,7 @@
           <entry key="project.open.time.28" value="4" />
           <entry key="project.open.time.29" value="3" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.30" value="5" />
+          <entry key="project.open.time.30" value="6" />
           <entry key="project.open.time.31" value="3" />
           <entry key="project.open.time.32" value="5" />
           <entry key="project.open.time.33" value="2" />
@@ -65,20 +59,20 @@
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.81" value="1" />
-          <entry key="project.opened" value="89" />
+          <entry key="project.opened" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="313" />
+          <entry key="java" value="320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="313" />
+          <entry key="JAVA" value="320" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -86,12 +80,12 @@
         <counts>
           <entry key="dummy" value="35" />
           <entry key="gitignore" value="8" />
-          <entry key="java" value="57562" />
+          <entry key="java" value="59044" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="57562" />
+          <entry key="JAVA" value="59044" />
           <entry key="PLAIN_TEXT" value="43" />
         </counts>
       </usages-collector>
@@ -99,11 +93,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/algorithm/tree/ConstructBTree.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/Segregate0And1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
+            <state relative-caret-position="748">
+              <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/Permutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -142,9 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/algorithm/list/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/com/LeetCode.java" />
-        <option value="$PROJECT_DIR$/src/com/ReverseLinkedListForLeetCode.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/string/MinimumSizeSubArraySum.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/list/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/list/AddTwoNumbers.java" />
@@ -181,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/com/algorithm/graph/ConvertZeros.java" />
         <option value="$PROJECT_DIR$/src/com/java/concept/immutabilityAndSingleton/SingletonEnum.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/string/ArrayTrip.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithm/string/BeautifulArray.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/string/ReaarangeTheSentence.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/string/ReAarangeTheSentence.java" />
         <option value="$PROJECT_DIR$/src/com/java/concept/scope/DifferentPackageClassToTestScope.java" />
@@ -193,6 +192,10 @@
         <option value="$PROJECT_DIR$/src/com/java/concept/hashmap/WeakHashMapImplementation.java" />
         <option value="$PROJECT_DIR$/src/com/java/concept/hashmap/ConcurrentHashMapExample.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/tree/ConstructBTree.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/tree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/string/BeautifulArray.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/string/Segregate0And1.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/string/Permutation.java" />
       </list>
     </option>
   </component>
@@ -209,8 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,7 +243,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -320,10 +321,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578881684516" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578964515254" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Idea project/Spring-Project" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -349,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConstructBTree">
+  <component name="RunManager" selected="Application.Permutation">
     <configuration name="AtomicVariableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.concept.AtomicVariableTest" />
       <module name="Algorithm" />
@@ -376,12 +379,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Implementor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.concept.interfaceImpl.Implementor" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.string.Permutation" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.concept.interfaceImpl.*" />
+          <option name="PATTERN" value="com.algorithm.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,12 +392,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.concept.TestInteger" />
+    <configuration name="Segregate0And1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.string.Segregate0And1" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.concept.*" />
+          <option name="PATTERN" value="com.algorithm.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,19 +419,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Implementor" />
-      <item itemvalue="Application.TestInteger" />
       <item itemvalue="Application.AtomicVariableTest" />
       <item itemvalue="Application.WeakHashMapImplementation" />
       <item itemvalue="Application.ConstructBTree" />
+      <item itemvalue="Application.Segregate0And1" />
+      <item itemvalue="Application.Permutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.Segregate0And1" />
         <item itemvalue="Application.ConstructBTree" />
         <item itemvalue="Application.WeakHashMapImplementation" />
         <item itemvalue="Application.AtomicVariableTest" />
-        <item itemvalue="Application.TestInteger" />
-        <item itemvalue="Application.Implementor" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +452,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30134228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30536914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -460,13 +463,13 @@
       <window_info id="DB Browser" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.46600565" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.46600565" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48866856" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17280453" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.48016998" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.46600565" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -684,41 +687,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/ReflectiveOperationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/IllegalAccessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="58" column="51" lean-forward="true" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/concept/immutabilityAndSingleton/SingletonClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="14" selection-end-line="144" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3454">
-          <caret line="194" column="7" selection-start-line="194" selection-start-column="7" selection-end-line="194" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38236">
-          <caret line="1821" column="26" selection-start-line="1821" selection-start-column="26" selection-end-line="1821" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Runtime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -881,13 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/ReAarangeTheSentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/ArrayTrip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -986,9 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1027,17 +985,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/BeautifulArray.java">
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/tree/ConstructBTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="110">
+          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/tree/ConstructBTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/tree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
+        <state relative-caret-position="22">
+          <caret line="250" column="25" lean-forward="true" selection-start-line="250" selection-start-column="25" selection-end-line="250" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/FindDuplicateWordsInSentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/BeautifulArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/ReAarangeTheSentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/CreateSubStringOfArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/Segregate0And1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
         </state>
       </provider>
     </entry>

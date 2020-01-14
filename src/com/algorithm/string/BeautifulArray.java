@@ -1,5 +1,14 @@
 package com.algorithm.string;
 
+
+/*A beautiful array is one which has got 'm' odd numbers in it
+example - input 1,2,3,4,5 ,m=2
+1,2,3
+1,2,3,4
+2,3,4,5
+3,4,5 .Sum = 4
+
+ */
 public class BeautifulArray {
     public static void main(String[] args) {
         System.out.println("Sum -->" + beautifulArray(new int[]{1, 2, 3, 4, 5}, 2));//ans 3
