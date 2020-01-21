@@ -37,6 +37,7 @@ class Implementor implements ParentInterface, ParentInterface2 {
         System.out.println("Printing var from Interface-1 --> " + ParentInterface.interestRate);
         System.out.println("Printing var from Interface-2 --> " + ParentInterface2.interestRate);
         System.out.println("Calculating ROI in Implementor");
+        //calculateROI();
         ParentInterface.super.calculateROI();
         ParentInterface2.super.calculateROI();
     }

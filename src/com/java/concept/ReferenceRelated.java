@@ -21,6 +21,7 @@ public class ReferenceRelated {
         System.out.println("Garbage collection called for phantom Reference");
         System.out.println("Is phantom Reference enqueued ?" + phantomRef.isEnqueued());
 
+
     }
 
     public static void weakReference() throws InterruptedException {

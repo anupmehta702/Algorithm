@@ -1,18 +1,25 @@
 package com.java.concept;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class CloneableImplementation implements Cloneable {
 
     private int i;
     private String str;
     private Integer j;
     private Dog d;
-
+    private HashMap<Integer,String> digitMap = new HashMap<>();
     public CloneableImplementation(int i, String str, Integer j,Dog d) {
 
         this.i = i;
         this.str = str;
         this.j = j;
         this.d = d;
+        this.digitMap.put(1,"one");
+        this.digitMap.put(2,"two");
+        this.digitMap.put(3,"three");
+        this.digitMap.put(4,"four");
     }
 
     @Override
@@ -22,7 +29,16 @@ public class CloneableImplementation implements Cloneable {
                 ", str='" + str + '\'' +
                 ", j=" + j +
                 ", d=" + d +
+                ", digitMap=" + digitMap +
                 '}';
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException{
+        CloneableImplementation ci = (CloneableImplementation)super.clone();
+        ci.d = (Dog)ci.d.clone();
+        ci.digitMap = (HashMap)ci.digitMap.clone();
+        return ci;
     }
 
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -47,13 +63,6 @@ public class CloneableImplementation implements Cloneable {
 clone of dog-->Dog{name='Doberman 2'}
 
      */
-
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        CloneableImplementation cloned = (CloneableImplementation) super.clone();
-        cloned.d = (Dog) cloned.d.clone();
-        return cloned;
-    }
 }
 class Dog implements  Cloneable{
     String name="Doberman";

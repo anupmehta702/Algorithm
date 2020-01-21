@@ -42,6 +42,7 @@ public class ReAarangeTheSentence {
         for(String w : words){
             wordList.add(new Word(w,w.length()));
         }
+
          Collections.sort(wordList);
         int count = 0;
         for(Word wordObj : wordList){
