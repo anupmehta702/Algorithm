@@ -20,6 +20,18 @@ public class StringTest {
         String[] eStringArr = new String[]{"a", "b", "c", "d"};
         String e = Arrays.toString(eStringArr);
         System.out.println(e);
+        testIntern();
+
+    }
+    public static void testIntern(){
+        String  aObj = new String("a");
+        String bIntern = aObj.intern();
+        String a = "a";
+        System.out.println("Is aObj.equals(bIntern) --> "+aObj.equals(bIntern));
+        System.out.println("Is aObj == (bIntern) --> "+(aObj == (bIntern)));
+
+        System.out.println("Is a.equals(bIntern) --> "+a.equals(bIntern));
+        System.out.println("Is a == (bIntern) --> "+(a == (bIntern)));
 
     }
 }

@@ -9,6 +9,7 @@ public class AllAboutHashmap {
 		testMap.put(1,"a");testMap.put(2,"b");testMap.put(3,"c");
 		testMap.put(4,"d");testMap.put(5,"e");testMap.put(6,"f");
 		Set<Map.Entry<Integer,String>> testEntrySet=testMap.entrySet();
+		Collections.synchronizedMap(testMap);
 		testEntrySet.stream().forEach((entry)-> System.out.print(" [ "+entry.getKey()+" , "+entry.getValue()+" ]"));
 		System.out.println();
 		Iterator itr = testMap.entrySet().iterator();

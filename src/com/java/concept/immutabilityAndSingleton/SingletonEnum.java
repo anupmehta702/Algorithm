@@ -4,7 +4,10 @@ import java.io.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-public enum SingletonEnum implements Serializable,Cloneable {
+enum XYZ{
+
+}
+public enum SingletonEnum implements Serializable,Cloneable  {
     SINGLETON_ENUM;
     private  String type = "Enum";
     private   int id = 22;
