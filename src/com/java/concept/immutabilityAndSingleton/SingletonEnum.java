@@ -11,6 +11,9 @@ public enum SingletonEnum implements Serializable,Cloneable  {
     SINGLETON_ENUM;
     private  String type = "Enum";
     private   int id = 22;
+    public  void setType(String type){
+        this.type=type;
+    }
     public String getValues(){
         type="Enum updated";
         System.out.println("changing type to - "+type);

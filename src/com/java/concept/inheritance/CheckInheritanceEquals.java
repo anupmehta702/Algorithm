@@ -1,20 +1,20 @@
-package com.java.concept.hashcodeAndEquals;
+package com.java.concept.inheritance;
 
 public class CheckInheritanceEquals {
     public static void main(String[] args) throws InterruptedException {
-        Animal a = new Animal();
+        AnimalOne a = new AnimalOne();
         Cat c = new Cat("Cat");
-        Animal animalCat = new Cat("Cat");
+        AnimalOne animalCat = new Cat("Cat");
         System.out.println("a.getClass()-->"+a.getClass().getSimpleName()+
                 " c.getClass()-->"+c.getClass().getSimpleName()+
                 " animalCat.getClass()-->"+animalCat.getClass().getSimpleName());
 
-        System.out.println("is catAnimal instanceOf Animal -->"+(animalCat instanceof Animal));//true
-        System.out.println("is cat instanceOf Animal -->"+(c instanceof Animal));//true
+        System.out.println("is catAnimal instanceOf Animal -->"+(animalCat instanceof AnimalOne));//true
+        System.out.println("is cat instanceOf Animal -->"+(c instanceof AnimalOne));//true
 
         c.myMethod(); // OR ((Cat) animalCat).myMethod();
         c.printLegs();
-        ((Animal)animalCat).printLegs();//calls override method of cat despite casting
+        ((AnimalOne)animalCat).printLegs();//calls override method of cat despite casting
 
         a.printLegs();//Legs == 4
 
@@ -22,13 +22,14 @@ public class CheckInheritanceEquals {
 
 
         //Upcasting of subtype .
-        Animal typeCastAnimal =(Animal) c;//small can go in big upcasting
+        AnimalOne typeCastAnimal =(AnimalOne) c;//small can go in big upcasting
         typeCastAnimal.printLegs();//still calls override method of cat,
         //typeCastAnimal.myMethod(); //it doesnot have access to other cat related methods
         ((Cat)typeCastAnimal).myMethod();// however you can cast and call ir
         System.out.println("type of typeCastAnimal --> "+typeCastAnimal.type);//Animal
         typeCastAnimal.animalMethod();//Animal Method !!
-
+        System.out.println("---------");
+        typeCastAnimal.printLegs();
 
         //Downcasting of parent
         Thread.sleep(1000);
@@ -52,11 +53,11 @@ public class CheckInheritanceEquals {
          */
     }
 }
-class Animal {
+class AnimalOne {
     String type="Animal";
     int legs = 4;
 
-    public Animal() {
+    public AnimalOne() {
         this.legs = 4;
     }
     public void printLegs(){
@@ -67,7 +68,7 @@ class Animal {
     }
 
 }
-class Cat extends Animal{
+class Cat extends AnimalOne{
     String type="Dog";
 
     public Cat( String type) {
