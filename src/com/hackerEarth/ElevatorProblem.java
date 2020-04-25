@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//THe solution is inccorect ,follow torch and bridge problem statement for correct solution
 public class ElevatorProblem {
     public static void main(String[] args) {
         System.out.println("output--> "+ getMinimumTravelTime("2,7,3"));//12

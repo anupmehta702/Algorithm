@@ -87,7 +87,7 @@ class Result {
 
 }
 
-public class Solution {
+public class Solution1 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
