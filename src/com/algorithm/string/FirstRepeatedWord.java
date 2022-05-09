@@ -10,8 +10,8 @@ public class FirstRepeatedWord {
         text = text.replaceAll("[^a-zA-Z0-9\\s]", "");//replace all special characters except alphabets numbers and space
         System.out.println("text --> "+text);
 
-        System.out.println("-->"+firstRepeatedWord("This is Is not a bag but bag not."));
-        System.out.println("-->"+firstRepeatedWord("that     that occurs sometimes"));
+        System.out.println("-->"+firstRepeatedWord("This is Is not a bag but bag not."));// output bag
+        System.out.println("-->"+firstRepeatedWord("that     that occurs sometimes"));// output that
     }
     public static String firstRepeatedWord(String sentence) {
         // Write your code here , : , ; , -

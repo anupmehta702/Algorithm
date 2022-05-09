@@ -9,8 +9,10 @@ public class KthMostRepeatingOccurrence {
         //int[] inputArr = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5};
         int[] inputArr = {1,2,1,2,5,3,1,4,1,2,4};
         //int[] inputArr = null;
-        System.out.println("The kth most occurred element is - " + findKthRepeatingOccurrenceUsingStreams(inputArr, 2));
-        System.out.println("The kth most occurred element is - " + findKthRepeatingOccurrenceUsingList(inputArr, 2));
+        System.out.println("The kth most occurred element is - "
+                + findKthRepeatingOccurrenceUsingStreams(inputArr, 2)); //2
+        System.out.println("The kth most occurred element is - "
+                + findKthRepeatingOccurrenceUsingStreamsPractise(inputArr, 2));// 2
     }
 
     public static int findKthRepeatingOccurrenceUsingStreams(int[] inputArr, int k) {
@@ -62,6 +64,22 @@ public class KthMostRepeatingOccurrence {
         return occurrenceMap;
     }
 
+    public static int findKthRepeatingOccurrenceUsingStreamsPractise(int[] inputArr, int k){
+        Map<Integer, Integer> occurenceMap = new HashMap<>();
+        for(int input : inputArr){
+            if(occurenceMap.containsKey(input)){
+                Integer previousCount = occurenceMap.get(input);
+                occurenceMap.put(input,previousCount++);
+            }else{
+                occurenceMap.put(input,1);
+            }
+        }
+        List<Map.Entry<Integer, Integer>> sortedListByValue = occurenceMap.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .collect(Collectors.toList());
+
+        return sortedListByValue.get(k-1).getKey();
+    }
 }
 
 class Node {

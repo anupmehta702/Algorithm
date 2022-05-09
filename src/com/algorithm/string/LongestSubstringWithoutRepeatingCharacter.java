@@ -5,9 +5,9 @@ import java.util.Map;
 
 public class LongestSubstringWithoutRepeatingCharacter {
     public static void main(String[] args) {
-       System.out.println("max length-->"+lengthOfLongestSubstring("pwwkew"));
-       System.out.println("max length-->"+lengthOfLongestSubstring("dvdf"));
-       System.out.println("max length-->"+lengthOfLongestSubstring("anviaj"));
+       System.out.println("max length-->"+lengthOfLongestSubstring("pwwkew"));//ans - 3 (wke)
+       System.out.println("max length-->"+lengthOfLongestSubstring("dvdf"));// ans - 3(vdf)
+       System.out.println("max length-->"+lengthOfLongestSubstring("anviaj")); // ans - 5(nviaj)
     }
     public static int lengthOfLongestSubstring(String s) {
         if(s.length()<=1)

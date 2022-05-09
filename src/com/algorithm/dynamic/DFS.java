@@ -79,11 +79,14 @@ public class DFS {
 
 /*Output
 -->4
-Graph -->
+Graph(input) -->
 0110
 1001
 1000
 0100
+A -> B -> D
+A-> C
+output
 A
 B
 D

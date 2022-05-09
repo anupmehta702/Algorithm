@@ -24,6 +24,9 @@ public class TopologicalSorting {
 		s.addEdge(5,2);s.addEdge(5,0);s.addEdge(4,0);s.addEdge(4,1);
 		s.addEdge(2,3);s.addEdge(3,1);
 		s.topologicalSort();
+
+
+
 		
 	}
 	

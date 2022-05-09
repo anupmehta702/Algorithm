@@ -2,10 +2,17 @@ package com.algorithm.string;
 
 import java.util.Arrays;
 
+//Output 534976 -> 536974 -> 536479
+/*
+Algo -
+1) Find an element from right which is smaller than it's previous consecutive no. i.e 4
+2) Swap it with the smallest number from right till that index . i.e. 6 --> 536974
+3) Sort array from the index in step 2 till last element ie.e 974->479 --> 536479
+ */
 public class NextGreater {
-    //public static String input="534976"; //output -- 536479
-    public static String input="218765"; //output -- 251678
-    //public static String input="1234"; //output -- 251678
+    //public static String input="534976"; //output -- 536974 --> 536479
+    //public static String input="218765"; //output -- 258761 -->  251678
+    public static String input="1234"; //output -- 1243
 
     public static void main(String[] args) {
          findNextGreaterNumber();
@@ -14,7 +21,7 @@ public class NextGreater {
     public static void findNextGreaterNumber(){
         char[] inputArr=input.toCharArray();
         int indexOfSmallestNumberFromRight=inputArr.length-1;
-
+        //example 534976
         for(int i=inputArr.length-2;i>=0;i--){
 
             if(inputArr[i]<inputArr[i+1]){
@@ -40,10 +47,3 @@ public class NextGreater {
         inputArr[j]=temp;
     }
 }
-//Output 534976 -> 536974 -> 536479
-/*
-Algo -
-1) Find an element from right which is smaller than it's previous consecutive no. i.e 4
-2) Swap it with the smallest number from right till that index . i.e. 6 --> 536974
-3) Sort array from the index in step 2 till last element ie.e 974->479 --> 536479
- */
