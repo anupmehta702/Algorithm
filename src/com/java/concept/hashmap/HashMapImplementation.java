@@ -61,19 +61,23 @@ public class HashMapImplementation<K, V> {
 
     private int hashForKey(K key) {
         int hash = key.hashCode() % defaultSize;
-        System.out.println("hash of key - "+key+" is - "+ hash);
+        System.out.println("hash of key - " + key + " is - " + hash);
         return hash;
     }
 
     public static void main(String[] args) {
 
-         List<String>[] arrayOfList = new ArrayList[2];
-        List<String> list1 = new ArrayList<>();list1.add("L1S1");list1.add("L1S2");
-        List<String> list2 = new ArrayList<>();list2.add("L1S1");list2.add("L1S2");
+        List<String>[] arrayOfList = new ArrayList[2];
+        List<String> list1 = new ArrayList<>();
+        list1.add("L1S1");
+        list1.add("L1S2");
+        List<String> list2 = new ArrayList<>();
+        list2.add("L1S1");
+        list2.add("L1S2");
         arrayOfList[0] = list1;
         arrayOfList[1] = list2;
 
-        System.out.println("Print array of list -->"+arrayOfList[0]);
+        System.out.println("Print array of list -->" + arrayOfList[0]);
 
         HashMapImplementation<Integer, String> hMap = new HashMapImplementation();
         hMap.put(3, "Three");

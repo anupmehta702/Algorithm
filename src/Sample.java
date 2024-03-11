@@ -1,17 +1,20 @@
 public class Sample {
 
-    public void method(Object object){
-        System.out.println("Object");
-    }
-    public void method (String string){
-        System.out.println("String");
-    }
     public static void main(String[] args) {
         Sample a = new Sample();
         a.method(1);
         int z=8;
         System.out.println(z/=z--);
     }
+
+
+    public void method(Object object){
+        System.out.println("Object");
+    }
+    public void method (String string){
+        System.out.println("String");
+    }
+
 
     public void buzzFizz(String[] inputArr){
         for (String input : inputArr) {

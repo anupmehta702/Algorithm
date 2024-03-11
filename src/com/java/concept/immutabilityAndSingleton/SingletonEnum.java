@@ -3,10 +3,9 @@ package com.java.concept.immutabilityAndSingleton;
 import java.io.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.util.EnumSet;
 
-enum XYZ{
 
-}
 public enum SingletonEnum implements Serializable,Cloneable  {
     SINGLETON_ENUM;
     private  String type = "Enum";
@@ -38,11 +37,13 @@ class TestSingletonEnum{
     public static void main(String[] args) throws IOException, ClassNotFoundException, IllegalAccessException, InstantiationException, InvocationTargetException {
         System.out.println("Singleton enum -->"+SingletonEnum.SINGLETON_ENUM.toString());
         System.out.println("Singleton enum ordinal -->"+SingletonEnum.SINGLETON_ENUM.ordinal());
-
+        TestEnum te = TestEnum.INSTANCE;
         SingletonEnum.SINGLETON_ENUM.getValues();
         System.out.println("Updated Singleton enum -->"+SingletonEnum.SINGLETON_ENUM.toString());
         breakSingletonUsingReflection();
         breakUsingSerializable();
+
+
 
     }
     public static void breakSingletonUsingReflection() throws IllegalAccessException, InvocationTargetException, InstantiationException {

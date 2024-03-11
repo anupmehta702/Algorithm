@@ -1,3 +1,5 @@
+package test.bnymelon;
+
 import java.util.LinkedHashMap;
 
 import static org.junit.Assert.*;

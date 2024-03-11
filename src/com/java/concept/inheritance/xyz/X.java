@@ -4,6 +4,7 @@ import com.java.concept.inheritance.abc.A;
 
 public class X extends A {
 
+
     @Override
     public void publicMethod() {
         System.out.println("Public method of class X");
