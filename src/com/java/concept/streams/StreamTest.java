@@ -13,6 +13,7 @@ public class StreamTest {
     public static void main(String[] args) {
         testFlatMap();
         biFunctionTest();
+        testStreamPredicate();
     }
 
     public static void testFlatMap() {
@@ -25,6 +26,27 @@ public class StreamTest {
                     return t.stream();
                 })
                 .collect(Collectors.toList()));
+    }
+
+
+    static void testStreamPredicate(){
+        StreamTest st = new StreamTest();
+        List<String> filteredList = Arrays.asList("Anup", "Mehta", "Mumbai")
+                .stream()
+                //.filter(StreamTest::startsWith)
+                .filter(s->startsWith(s))
+                .filter(s->st.startsWith(s))
+                .filter(startsWithPredicate())
+                .collect(Collectors.toList());
+        System.out.println("filtered list -->"+filteredList);
+    }
+
+    public  static boolean startsWith(String input){
+        return input.charAt(0) == 'A';
+    }
+
+    public static Predicate<String> startsWithPredicate(){
+        return s -> s.charAt(0) == 'A';
     }
 
     public static void biFunctionTest() {

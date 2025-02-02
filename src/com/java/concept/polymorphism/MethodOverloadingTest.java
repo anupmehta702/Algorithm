@@ -37,7 +37,28 @@ public class MethodOverloadingTest {
     public static void main(String[] args) {
         C c = new C();
         overloadedMethod(c);//output - TWO
+
+        SubClass sub = new SubClass();
+        sub.superClassMethod(123321);
+        sub.mySuperPublicMethod();
+        sub.mySuperProtectedMethod();// only bcoz both classes and main method in same package
     }
 }
 
 
+class SuperClass{
+    void superClassMethod(Number n){
+        System.out.println("Printing number -->"+n);
+    }
+    void mySuperPublicMethod(){
+        System.out.println("In SuperClass.mySuperPublicMethod()");
+    }
+    protected void mySuperProtectedMethod(){
+        System.out.println("In SuperClass.mySuperProtectedMethod()");
+    }
+}
+class SubClass extends SuperClass{
+    void superClassMethod(Double d){
+        System.out.println("Printing double -->"+d);
+    }
+}

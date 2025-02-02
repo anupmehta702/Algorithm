@@ -13,23 +13,6 @@ public class Test1 {
     public static void main(String[] args) throws IOException {
         restCallForMarketPrice();
 
-       /* MarketPrice marketPrice1 = new MarketPrice("20190506", "ibm", 23.54);
-        MarketPrice marketPrice2 = new MarketPrice("20190506", "googl", 74.12);
-        List<MarketPrice> inputMarketPriceList = new ArrayList<>();
-        inputMarketPriceList.add(marketPrice1);
-        inputMarketPriceList.add(marketPrice2);
-
-        SecurityHolding sc1 = new SecurityHolding("20190506", "ibm", 100, "portfolio_1");
-        SecurityHolding sc2 = new SecurityHolding("20190506", "googl", 200, "portfolio_1");
-        List<SecurityHolding> inputSecurityHoldingList = new ArrayList<>();
-        inputSecurityHoldingList.add(sc1);
-        inputSecurityHoldingList.add(sc2);
-
-        Portfolio portfolio = new Portfolio();
-        portfolio.populateMarketPrice(inputMarketPriceList);
-        portfolio.populateSecurityHoldings(inputSecurityHoldingList);
-
-        System.out.println("Holding value --> "+portfolio.calculateHoldingValue("20190506"));*/
 
     }
 

@@ -9,7 +9,23 @@ public class FindDuplicateWordsInSentence {
     public static void main(String[] args) {
         String input = "I am in problem . Problem exists in everything . ";
         findDuplicateWordsInSentence(input);
+        findDuplicatesNew(input);
     }
+
+    public static void findDuplicatesNew(String input){
+        String[] inputArr = input.split(" ");
+        HashMap<String,Integer> countMap = new HashMap<>();
+        for(String word : inputArr){
+            if(countMap.containsKey(word.toLowerCase())){
+                int count = countMap.get(word.toLowerCase());
+                countMap.put(word.toLowerCase(),++count);
+                System.out.println("Duplicate word found -->"+word);
+            }else{
+                countMap.put(word.toLowerCase(),1);
+            }
+        }
+    }
+
 
     public static void findDuplicateWordsInSentence(String input) {
         char[] inputArr = input.toCharArray();

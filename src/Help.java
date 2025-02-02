@@ -4,12 +4,13 @@ import java.util.List;
 public class Help {
 
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
+
+        /*List<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(2);
         Object[] array = list.toArray();
         int total = (int)array[0] + (int)array[1];
-        System.out.println(total);
+        System.out.println(total);*/
     }
 }
  class Employee {

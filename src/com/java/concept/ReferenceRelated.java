@@ -14,6 +14,7 @@ public class ReferenceRelated {
         ReferenceQueue<Counter> queue = new ReferenceQueue<>();
         PhantomReference<Counter> phantomRef = new PhantomReference<Counter>(counter, queue);
         counter = null;
+        System.out.println("Printing phantom Ref obj -->"+phantomRef.get());
         System.out.println("IS phantom Reference enqueued ? " + phantomRef.isEnqueued());
 
         System.gc();
