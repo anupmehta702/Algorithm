@@ -39,7 +39,6 @@ class DBDataUsingStack {
 
 
     public void beginTransaction() {
-        //deep copy
         System.out.println("Begin Transaction !");
         rollBackStack = new Stack<>();
 
@@ -49,6 +48,8 @@ class DBDataUsingStack {
     public void create(Integer rowNum, String columnData, boolean isRollback) {
         System.out.println("Creating a new row with rowNum -> "+rowNum);
         Map<String, String> columns = extractColumnsDataFrom(columnData);
+
+        //create equivalent DB command for CREATE for rollback
         if(!isRollback) {
             rollBackStack.push("DELETE|" + rowNum);
         }
@@ -88,6 +89,8 @@ class DBDataUsingStack {
     public void delete(Integer rowNum, boolean isRollBack) {
         System.out.println("Deleting the record with rowNum -->"+rowNum);
         Map<String, String> originalColumns = dbMap.get(rowNum);
+
+        //create equivalent opposite command for rollback
         if(!isRollBack) {
             createRollbackCmdForDelete(rowNum, originalColumns);
         }
@@ -96,10 +99,11 @@ class DBDataUsingStack {
 
 
     //create equivalent update command which contains previous values before the original update statement
-    private void createRollbackCmdForUpdate(Integer rowNum, Map<String, String> inputColumnsMap) {
+    private void createRollbackCmdForUpdate(Integer rowNum, Map<String, String> updatedColumnsMap) {
         Map<String, String> existingColumnDataMap = dbMap.get(rowNum);
         StringBuilder originalValues = new StringBuilder();
-        inputColumnsMap.forEach((key, value) -> {
+
+        updatedColumnsMap.forEach((key, value) -> {
             String existingColumnName = key;
             String existingColumnValue = existingColumnDataMap.get(key);
             if (!(originalValues.length() == 0)) { //except for first column pair , add ","

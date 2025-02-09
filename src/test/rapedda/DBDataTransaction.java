@@ -147,7 +147,9 @@ class DBData {
     }
 
     public void commit() {
-        System.out.println(" Commiting the data !!");
+        System.out.println(" Committing the data !!");
+
+        //deep copy from inMemoryMap to dbMap
         inMemoryMap
                 .forEach((key, value) -> {
                     if (dbMap.containsKey(key)) { // for update
@@ -155,19 +157,19 @@ class DBData {
                         //Updating column from inMemory to dbMap
                         Map<String, String> existingColumns = dbMap.get(key);
                         Map<String, String> updatedColumns = value;
+                        //deep copying of maps
                         updatedColumns.forEach((updatedRow, updatedCol) -> {
                             if (existingColumns.containsKey(updatedRow)) {
                                 existingColumns.put(updatedRow, updatedCol);
                             }
                         });
-
                     } else {
                         System.out.println("Inserting entry with rowNum -->" + key);
                         dbMap.put(key, value);//for insert
                     }
                 });
 
-        // if entry is deleted from inMemoryMap
+        // if entry is deleted from inMemoryMap, then delete it from dbMap as well
         Integer rowToDelete = 0;
         Set<Map.Entry<Integer, Map<String, String>>> dbMapEntries = dbMap.entrySet();
         for (Map.Entry<Integer, Map<String, String>> entry : dbMapEntries) {
@@ -176,8 +178,9 @@ class DBData {
             }
         }
         dbMap.remove(rowToDelete);
+        System.out.println();
 
-        inMemoryMap = new HashMap<>();
+        inMemoryMap = new HashMap<>();// resetting the inMemoryMap to default since  this is the end of transaction
         isTransactionActive = false;
     }
 
