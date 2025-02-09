@@ -189,3 +189,39 @@ class DBData {
 
 
 }
+/*
+OUTPUT
+
+!! Showing dirty read values !!
+------ Printing inMemoryMap ------
+Printing data for key -->1
+Place --> Mumbai
+Name --> Anup
+----------------------
+Printing data for key -->2
+Place --> Mumbai
+Name --> Randeep
+----------------------
+ Commiting the data !!
+Inserting entry with rowNum -->1
+Inserting entry with rowNum -->2
+!! Showing dirty read values !!
+------ Printing inMemoryMap ------
+Printing data for key -->1
+Place --> Pune
+Name --> Anup
+----------------------
+ Rollbacking the data !
+--------- Printing DBMap ---------
+Printing data for key -->1
+Place --> Mumbai
+Name --> Anup
+----------------------
+Printing data for key -->2
+Place --> Mumbai
+Name --> Randeep
+----------------------
+
+Process finished with exit code 0
+
+ */
