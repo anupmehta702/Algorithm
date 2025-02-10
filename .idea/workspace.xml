@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf27885c-252e-41ac-88fd-5ac2ec48ed39" name="Default Changelist" comment="" />
+    <list default="true" id="cf27885c-252e-41ac-88fd-5ac2ec48ed39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/rapedda/DBDataTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/rapedda/DBDataTransaction.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +18,7 @@
         <counts>
           <entry key="project.closed" value="122" />
           <entry key="project.open.time.1" value="10" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.106" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -76,21 +80,21 @@
           <entry key="project.open.time.9" value="1" />
           <entry key="project.open.time.95" value="1" />
           <entry key="project.open.time.9752" value="1" />
-          <entry key="project.opened" value="182" />
+          <entry key="project.opened" value="183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="7" />
           <entry key="gitignore" value="5" />
-          <entry key="java" value="627" />
+          <entry key="java" value="628" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="627" />
+          <entry key="JAVA" value="628" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -98,13 +102,13 @@
         <counts>
           <entry key="dummy" value="81" />
           <entry key="gitignore" value="8" />
-          <entry key="java" value="106441" />
+          <entry key="java" value="107164" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="106441" />
+          <entry key="JAVA" value="107164" />
           <entry key="PLAIN_TEXT" value="102" />
         </counts>
       </usages-collector>
@@ -115,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/rapedda/Reconciliation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="946">
               <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,16 +143,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/rapedda/DBDataTransaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="132">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2755#2756#0" expanded="true" />
-                <element signature="e#2797#2798#0" expanded="true" />
                 <element signature="method#extractColumnsDataFrom#0;class#DBData#0" />
                 <element signature="method#read#0;class#DBData#0" />
-                <element signature="e#4081#4082#0" expanded="true" />
-                <element signature="e#4109#4110#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,11 +157,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/rapedda/DBTransactionUsingStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="230" column="16" lean-forward="true" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+            <state relative-caret-position="2794">
+              <caret line="129" column="74" selection-start-line="129" selection-start-column="74" selection-end-line="129" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#extractColumnsDataFrom#0;class#DBData#0" />
               </folding>
             </state>
           </provider>
@@ -278,8 +277,8 @@
         <option value="$PROJECT_DIR$/src/test/rapedda/Reconciliation.java" />
         <option value="$PROJECT_DIR$/src/test/rapedda/ListRecursion.java" />
         <option value="$PROJECT_DIR$/src/test/rapedda/DBTransaction.java" />
-        <option value="$PROJECT_DIR$/src/test/rapedda/DBDataTransaction.java" />
         <option value="$PROJECT_DIR$/src/test/rapedda/DBTransactionUsingStack.java" />
+        <option value="$PROJECT_DIR$/src/test/rapedda/DBDataTransaction.java" />
       </list>
     </option>
   </component>
@@ -296,6 +295,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -406,15 +407,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1739095313862" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1739155425969" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Idea project/spring-boot-security-jwt-authentication/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -549,7 +548,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -560,13 +559,13 @@
       <window_info id="DB Browser" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.4348442" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.4348442" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48866856" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.49433428" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.49433428" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.46600565" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3101983" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -888,28 +887,38 @@
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/rapedda/DBDataTransaction.java</url>
-          <line>139</line>
-          <properties />
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/rapedda/DBDataTransaction.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/rapedda/DBTransactionUsingStack.java</url>
-          <line>145</line>
+          <line>149</line>
           <properties />
           <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/rapedda/DBDataTransaction.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/rapedda/DBDataTransaction.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>dbMap.get(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dbMap.get(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>splitArr.length</expression-string>
         <language-id>JAVA</language-id>
@@ -945,26 +954,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>Math.min(c[i - 1][j], 1 + c[i][j - input[i - 1]])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>c[i][j - 1]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/stream/TerminalOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/stream/AbstractPipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1262,20 +1254,37 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/rapedda/DBTransaction.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Map.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18854">
-          <caret line="883" column="14" selection-start-line="883" selection-start-column="14" selection-end-line="883" selection-end-column="14" />
+        <state relative-caret-position="219">
+          <caret line="114" column="10" lean-forward="true" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/rapedda/Reconciliation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="946">
           <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/rapedda/DBTransactionUsingStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2794">
+          <caret line="129" column="74" selection-start-line="129" selection-start-column="74" selection-end-line="129" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18854">
+          <caret line="883" column="14" selection-start-line="883" selection-start-column="14" selection-end-line="883" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1289,29 +1298,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/rapedda/DBTransactionUsingStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="230" column="16" lean-forward="true" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#extractColumnsDataFrom#0;class#DBData#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/rapedda/DBDataTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="132">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2755#2756#0" expanded="true" />
-            <element signature="e#2797#2798#0" expanded="true" />
             <element signature="method#extractColumnsDataFrom#0;class#DBData#0" />
             <element signature="method#read#0;class#DBData#0" />
-            <element signature="e#4081#4082#0" expanded="true" />
-            <element signature="e#4109#4110#0" expanded="true" />
           </folding>
         </state>
       </provider>

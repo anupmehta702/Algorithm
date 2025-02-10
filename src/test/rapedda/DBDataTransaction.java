@@ -2,7 +2,6 @@ package test.rapedda;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * THis program takes input as series of DB commands and performs action on it .
@@ -23,8 +22,10 @@ public class DBDataTransaction {
                 , "BEGIN"
                 , "UPDATE|1|Place=Pune"
                 , "DELETE|2"
+                , "UPDATE|1|Place=Nashik"
+                , "CREATE|3|Name=Priyaranjan,Place=Bangalore"
                 , "READ"
-                , "ROLLBACK"
+                , "COMMIT"
                 , "READ"
         };
         DBData dbData = new DBData();
@@ -58,17 +59,20 @@ public class DBDataTransaction {
 class DBData {
     Map<Integer, Map<String, String>> dbMap = new HashMap<>();
     Map<Integer, Map<String, String>> inMemoryMap = new HashMap<>();
+    Map<Integer, String> inMemoryDeletedMap = new HashMap<>();
     boolean isTransactionActive = false;
 
     public void beginTransaction() {
         isTransactionActive = true;
         //deep copy
+/*
         dbMap.forEach((key, value) -> {
             Map<String, String> originalColumns = value;
             Map<String, String> inMemoryColumns = new HashMap<>();
             originalColumns.forEach(inMemoryColumns::put);
             inMemoryMap.put(key, inMemoryColumns);
         });
+*/
 
     }
 
@@ -82,6 +86,12 @@ class DBData {
 
     public void update(Integer rowNum, String columnData) {
         Map<String, String> inputColumnsMap = extractColumnsDataFrom(columnData);
+
+        //if data not present in inMemoryDB, copy it from dbMap
+        if (!inMemoryMap.containsKey(rowNum)) {
+            loadFromDB(rowNum);
+        }
+
         Map<String, String> existingColumnDataMap = inMemoryMap.get(rowNum);
         inputColumnsMap.forEach((key, value) -> {
             existingColumnDataMap.put(key, value);
@@ -91,8 +101,19 @@ class DBData {
 
     }
 
+    private void loadFromDB(Integer rowNum) {
+        Map<String, String> originalColumns = dbMap.get(rowNum);
+        Map<String, String> inMemoryColumns = new HashMap<>();
+        //deepcopy
+        originalColumns.forEach((key, value) -> {
+            inMemoryColumns.put(key, value);
+        });
+        inMemoryMap.put(rowNum, inMemoryColumns);
+    }
+
     public void delete(Integer rowNum) {
-        inMemoryMap.remove(rowNum);
+        inMemoryDeletedMap.put(rowNum, "");
+        //inMemoryMap.remove(rowNum);
     }
 
     private Map<String, String> extractColumnsDataFrom(String columnData) {
@@ -170,23 +191,28 @@ class DBData {
                 });
 
         // if entry is deleted from inMemoryMap, then delete it from dbMap as well
-        Integer rowToDelete = 0;
+        inMemoryDeletedMap.forEach((key, value) -> {
+            dbMap.remove(key);
+        });
+        /*Integer rowToDelete = 0;
         Set<Map.Entry<Integer, Map<String, String>>> dbMapEntries = dbMap.entrySet();
         for (Map.Entry<Integer, Map<String, String>> entry : dbMapEntries) {
             if (!inMemoryMap.containsKey(entry.getKey())) {
                 rowToDelete = entry.getKey();
             }
         }
-        dbMap.remove(rowToDelete);
+        dbMap.remove(rowToDelete);*/
         System.out.println();
 
         inMemoryMap = new HashMap<>();// resetting the inMemoryMap to default since  this is the end of transaction
+        inMemoryDeletedMap = new HashMap<>();
         isTransactionActive = false;
     }
 
     public void rollBack() {
-        System.out.println(" Rollbacking the data !");
+        System.out.println(" !! Rollbacking the data !!");
         inMemoryMap = new HashMap<>();//flushing all of the uncommitted data
+        inMemoryDeletedMap = new HashMap<>();
         isTransactionActive = false;
     }
 
